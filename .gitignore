@@ -1,0 +1,18 @@
+# Evidence output directories (never commit actual forensic data)
+Results/
+Forensic_IR/
+DeepWindowsIR_v5_*/
+*.evtx
+*.etl
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# PowerShell transcripts
+*_transcript.txt
+
+# Temp files
+*.tmp
+*.temp

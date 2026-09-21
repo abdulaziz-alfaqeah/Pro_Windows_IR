@@ -1,0 +1,7 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+.\Deep_Windows_IR_Audit_v5.ps1 `
+  -CollectEventLogs `
+  -EventDays 30 `
+  -DeepHashAllExecutables `
+  -OutputRoot "D:\semster-4\incident_response\Services_Audit\Pro_Windows_IR\Results"
